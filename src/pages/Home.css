@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 .container{
-    display: flex;
     justify-content: center;
     align-items: center;
     min-width: 100%;
@@ -10,20 +9,19 @@
 }
 
 .desc_container{
-    display: flex;
     justify-content: center;;
     align-items: center;
     font-family: 'Robot Mono', monospace;
 }
 
 .description{
-    display: flex;
+    align-items: center;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     height: 300px;
     width: 100%;
-    margin-bottom: 50px;
+    margin: 50px 0;
 }
 .description h1{
     font-size: 60px;
@@ -35,7 +33,6 @@
 }
 
 .image_container{
-    display: flex;
     justify-content: center;;
     align-items: center;
 }
@@ -80,7 +77,6 @@
 
 @media screen and (max-width: 1000px) {
     .container{
-        display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
@@ -88,12 +84,20 @@
         margin:0;
     }
     .description{
-        display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
         height: 100px;
         width: 100%;
+        margin-bottom: 60px;
+    }
+    .image{
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+        width: 100%;
+        display: flex;
+        margin-top: 10px;
     }
     .image img{
         border-radius: 50%;
@@ -107,16 +111,19 @@
         width: 150px;
         height: 150px;
         background-color: #3FC309;
-        border-radius: 70% 20%;
+        border-radius: 50%;
     }
     .description h1{
         font-size: 40px;
     }
-    .frontend{
+    .description .frontend{
         color: #777779;
         font-size: 20px;
     }
     .description p{
         font-size: 10px;
+    }
+    .image_undraw_container{
+        margin-top: 50px;
     }
 }

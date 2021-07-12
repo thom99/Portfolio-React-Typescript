@@ -6,18 +6,18 @@ const Content = () => {
     return (
         <>
             <div className="row container">
-                <div className="col-6 desc_container">
-                    <div className="description">
-                        <h1>Hi, I'm Thomas</h1>
-                        <p className="frontend">Frontend Developer</p>
-                        <p>Innovative front-end developer with 1 year of experience building and maintaining responsive websites. Expertise in HTML, CSS, JavaScript and React; as well as modern libraries and frameworks.</p>
-                    </div>
-                </div>
-                <div className="col-6 image_container">
+                <div className="col-4 image_container">
                     <div className="image">
                         <div className="bg-image">
                             <img src={thomasfoto} />
                         </div>
+                    </div>
+                </div>
+                <div className="col-8 desc_container">
+                    <div className="description">
+                        <h1>Hi, I'm Thomas</h1>
+                        <p className="frontend">Frontend Developer</p>
+                        <p>Innovative front-end developer with 1 year of experience building and maintaining responsive websites. Expertise in HTML, CSS, JavaScript and React; as well as modern libraries and frameworks.</p>
                     </div>
                 </div>
             </div>
