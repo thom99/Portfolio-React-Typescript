@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com//css?family=Raleway:200');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100%;
+    margin:0;
+}
+
+.desc_container{
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    font-family: 'Robot Mono', monospace;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.description h1{
+    font-size: 60px;
+}
+
+.frontend{
+    color: #777779;
+    font-size: 30px;
+}
+
+.image_container{
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+}
+.image{
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+
+.bg-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 250px;
+    background-color: #3FC309;
+    border-radius: 70% 20%;
+}
+
+.image img{
+    border-radius: 50%;
+    width:200px;
+    height:200px;
+}
+
+.image_undraw_container{
+    display: flex;
+    justify-content: center;;
+    align-items: center;
+    font-family: 'Robot Mono', monospace;
+}
+
+.image_undraw{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        min-width: 100%;
+        margin:0;
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 100px;
+        width: 100%;
+    }
+    .image img{
+        border-radius: 50%;
+        width:100px;
+        height:100px;
+    }
+    .bg-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        background-color: #3FC309;
+        border-radius: 70% 20%;
+    }
+    .description h1{
+        font-size: 40px;
+    }
+    .frontend{
+        color: #777779;
+        font-size: 20px;
+    }
+    .description p{
+        font-size: 10px;
+    }
+}
